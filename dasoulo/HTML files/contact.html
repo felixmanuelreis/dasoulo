@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Explore Vessoru</title>
+    <style>
+        /* Add CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Explore Vessoru</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Explore Vessoru</h2>
+            <form action="#" method="post">
+                <div style="margin-bottom: 10px;">
+                    <label for="name" style="display: inline-block; width: 150px;">Name:</label>
+                    <input type="text" id="name" name="name" style="width: calc(30% - 170px);" required>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="email" style="display: inline-block; width: 150px;">Email:</label>
+                    <input type="email" id="email" name="email" style="width: calc(30% - 170px);" required>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="phone" style="display: inline-block; width: 150px;">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" style="width: calc(30% - 170px);" required>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="wa_number" style="display: inline-block; width: 150px;">WA Number:</label>
+                    <input type="checkbox" id="wa_number" name="wa_number" style="width: auto;">
+                    <label for="wa_number">Is this also a WhatsApp number?</label>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label style="display: inline-block; width: 150px;">Preferred Contact Method:</label>
+                    <div style="display: inline-block;">
+                        <input type="radio" id="text_phone" name="contact_method" value="phone" checked>
+                        <label for="text_phone">Text to Phone Number</label><br>
+                        <input type="radio" id="text_wa" name="contact_method" value="wa">
+                        <label for="text_wa">WhatsApp Message</label>
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="message" style="display: inline-block; width: 150px;">Message:</label>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <textarea id="message" name="message" rows="4" style="width: calc(40% - 170px);" required></textarea>
+                </div>
+                <div style="margin-top: 10px;">
+                    <input type="submit" value="Send">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer style="margin-top: 50px;">
+        <!-- Added margin to the footer element -->
+        <p>&copy; 2024 Uoumata Unipessoal Limitada. All rights reserved.</p>
+    </footer>
+</body>
+</html>
