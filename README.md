@@ -14,7 +14,7 @@ Join us on a journey of exploration and discovery as we invite you to uncover th
 
 1. Clone this repository to your local machine.
 2. Navigate to the "index.html" file and open it in your web browser.
-3. Explore the different sections of the website by clicking on the navigation links [here](https://dashing-kleicha-3e9f2a.netlify.app.)
+3. Explore the different sections of the website by clicking on the navigation links [here](https://dashing-kleicha-3e9f2a.netlify.app)
 
 ## Contributing
 
