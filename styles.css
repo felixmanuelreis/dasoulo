@@ -1,0 +1,177 @@
+﻿/* Reset some default browser styles */
+body, h1, h2, p, ul, li, form, input, textarea, table, tr, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background-color: whitesmoke;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+.navbar {
+    text-align: right;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+    .navbar ul {
+        list-style-type: none;
+    }
+
+        .navbar ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+            .navbar ul li a {
+                color: black;
+                text-decoration: none;
+            }
+ 
+
+
+main {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+    table img {
+        display: block;
+        margin: 0 auto;
+    }
+
+section {
+    margin-top: 20px;
+    padding: 0 20px;
+}
+
+    section h2 {
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    section p {
+        margin-bottom: 20px;
+    }
+
+footer {
+    text-align: left;
+    margin-top: 50px;
+    padding: 10px 0;
+    background-color: white;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+header,
+footer {
+    color: black;
+}
+
+
+/* Default styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    img {
+        max-width: 80%; /* Reduce the width of images */
+        margin: 0 auto; /* Center the images */
+    }
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+    .form-row label {
+        display: none;
+    }
+
+    .form-row input[type="checkbox"] {
+        margin-right: 15px;
+    }
+
+        .form-row input[type="checkbox"] + label {
+            margin-right: 15px;
+            display: inline-block;
+        }
+    .form-row input[type="radio"] {
+        margin-right: 15px;
+    }
+
+        .form-row input[type="radio"] + label {
+            margin-right: 15px;
+            display: inline-block;
+        }
+
+
+
+    .form-row input[type="submit"] {
+        padding: 7px 15px;
+        background-color: lightgray;
+        color: black;
+        border: 10px black;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+
+    .form-row input[type="text"],
+    .form-row input[type="email"],
+    .form-row input[type="tel"],
+    .form-row textarea {
+        border-radius: 5px; 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        width: 50%;
+    }
+
+.image-container {
+    border: 1px solid lightgray;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+    .image-container img:nth-child(1),
+    .image-container img:nth-child(3) {
+        width: 400px; /* Set the width to match the width of image 2 */
+        height: auto; /* Maintain the aspect ratio */
+    }
+
+
+
+.caption {
+    margin-top: 10px; /* Space between image and caption */
+}
